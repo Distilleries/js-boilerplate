@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
 
 
 #Default Javascript VueJS and Elixir project
@@ -14,6 +14,8 @@ The js-boilerplate is a fresh instance of stand alone javascript application bas
         1. [Vhost](#vhost)
 
     1. [Technologies](#3-technologies)
+    1. [Build app](#4-build-app)
+
 
 ##Require
 To use this project you have to install:
