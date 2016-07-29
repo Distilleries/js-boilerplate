@@ -16,7 +16,7 @@ module.exports = {
                 css: [],
                 copyfiles: [
                     [
-                        ['app/assets/images/**'],
+                        ['app/assets/images'],
                         'public/assets/images'
                     ],
                     [
@@ -25,8 +25,8 @@ module.exports = {
                     ],
                     [
                         [
-                            'node_modules/font-awesome/fonts/*',
-                            'app/assets/fonts/**/*'
+                            'node_modules/font-awesome/fonts',
+                            'app/assets/fonts'
                         ],
                         'public/assets/fonts'
                     ]
