@@ -32,8 +32,9 @@ for (var i in userConfig.site) {
 
     elixir(function (mix) {
         config.app_files.css.push(config.assetsPath + '/css');
+        config.app_files.css.push(config.publicPath + '/css/app.css');
         mix
-            .sass(config.app_files.sass);
+            .sass(config.app_files.sass,elixir.config.css.outputFolder);
             elixir.Task.find('sass').watch(config.assetsPath + '/js/**/*.scss');
 
             mix.styles(config.app_files.css, config.publicPath + '/css', './')
