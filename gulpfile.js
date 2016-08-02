@@ -29,6 +29,7 @@ for (var i in userConfig.site) {
     elixir.config.publicPath = config.publicPath;
     elixir.config.css.outputFolder = config.cssoutputFolder;
     elixir.config.js.outputFolder = config.jsoutputFolder;
+    elixir.config.css.autoprefix.options.browsers =  ['last 15 versions'];
 
     elixir(function (mix) {
         config.app_files.css.push(config.assetsPath + '/css');
