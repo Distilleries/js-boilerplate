@@ -33,7 +33,7 @@ When you want create a new empty project with composer use this command:
 
 ```ssh
 git clone https://github.com/Distilleries/js-boilerplate.git
-npm install install
+npm install
 gulp
 ```
 
